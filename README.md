@@ -1,6 +1,6 @@
 # Gerador de PDFs
 
-## ❓ O Que É Esta Solução?
+## ❓ O que é esta solução?
 
 Esta solução foi criada para **automatizar a geração de documentos personalizados** a partir de uma lista de dados. Imagine que você precisa criar vários documentos (como contratos, certificados ou relatórios) com informações diferentes para cada pessoa. Fazer isso manualmente pode ser demorado e sujeito a erros.
 
