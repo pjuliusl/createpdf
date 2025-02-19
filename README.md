@@ -18,9 +18,10 @@ Antes de começar, certifique-se de que você tem os seguintes itens instalados:
 
 ### 2. Baixar o Script 
 
-1. Acesse o repositório do projeto no GitHub: (https://github.com/pjuliusl/createpdf/releases/tag/v1.0).
+1. Acesse a aba **"Releases"** do projeto no GitHub: (https://github.com/pjuliusl/createpdf/releases/tag/v1.0).
 2. Procure pela aba **"Releases"** e selecione **"create_pdf.exe"**.
-3. Um download será iniciado, certifique-se de manter o download para que não ocorram problemas. 
+3. Um download será iniciado, certifique-se de manter o download para que não ocorram problemas.
+4. Caso necessário, faça também o download dos templates `Planilha_Base.xlsx` e `Termo_Bolsa.docx`. 
 
 ### 3. Preparar os Arquivos
 
