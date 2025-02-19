@@ -1,6 +1,18 @@
 # Gerador de PDFs
 
-Este projeto é uma solução para gerar PDFs a partir de uma planilha do Excel e um template do Word. Ele foi desenvolvido para facilitar a criação de documentos personalizados de forma automatizada.
+## ❓ O Que É Esta Solução?
+
+Esta solução foi criada para **automatizar a geração de documentos personalizados** a partir de uma lista de dados. Imagine que você precisa criar vários documentos (como contratos, certificados ou relatórios) com informações diferentes para cada pessoa. Fazer isso manualmente pode ser demorado e sujeito a erros.
+
+Com esta ferramenta, você só precisa:
+
+1. **Uma planilha do Excel**: Onde estão armazenados os dados das pessoas (como nomes, CPFs, endereços, etc.).
+2. **Um template do Word**: Um modelo de documento onde os dados serão inseridos automaticamente.
+
+A solução faz o seguinte:
+- Lê os dados da planilha.
+- A partir de marcadores dentro do documento (ex: `{NOME}`, `{CPF}` que correspondem as colunas NOME e CPF na planilha) ele preenche o template do Word com as informações de cada pessoa.
+- Gera um arquivo PDF para cada pessoa, pronto para ser impresso ou enviado.
 
 ---
 
@@ -14,14 +26,14 @@ Antes de começar, certifique-se de que você tem os seguintes itens instalados:
 
 - **Microsoft Word**: O script utiliza o Word para gerar os PDFs.
 - **Planilha do Excel**: Uma planilha com os dados que serão usados para preencher o template. 
-- **Template do Word**: Um documento do Word com marcadores para os dados (ex: `{NOME}`, `{CPF}` que correspondem as colunas NOME e CPF na planilha).
+- **Template do Word**: Um documento do Word com marcadores para os dados.
 - Os templates necessários são disponibilizados também neste documento caso você já não os tenha.
 
 ### 2. Baixar o Script 
 
 1. Acesse a aba **"Releases"** do projeto no GitHub: (https://github.com/pjuliusl/createpdf/releases/tag/v1.0).
 2. Selecione **"create_pdf.exe"**.
-3. Um download será iniciado, certifique-se de manter o download para que não ocorram problemas.
+3. Um download será iniciado, certifique-se de manter o download caso seu navegador impeça o procedimento, para que não ocorram problemas.
 4. Caso necessário, faça também o download dos templates `Planilha_Base.xlsx` e `Termo_Bolsa.docx`. 
 
 ### 3. Preparar os Arquivos
