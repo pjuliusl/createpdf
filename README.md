@@ -14,7 +14,7 @@ Antes de começar, certifique-se de que você tem os seguintes itens instalados:
 
 - **Microsoft Word**: O script utiliza o Word para gerar os PDFs.
 - **Planilha do Excel**: Uma planilha com os dados que serão usados para preencher o template.
-- **Template do Word**: Um documento do Word com marcadores para os dados (ex: `{NOME}`, `{CPF}`).
+- **Template do Word**: Um documento do Word com marcadores para os dados (ex: `{NOME}`, `{CPF}` que correspondem as colunas NOME e CPF na planilha).
 
 ### 2. Baixar o Script 
 
@@ -26,7 +26,7 @@ Antes de começar, certifique-se de que você tem os seguintes itens instalados:
 ### 3. Preparar os Arquivos
 
 - Coloque a planilha do Excel (`Planilha_Base.xlsx`) e o template do Word (`Termo_Bolsa.docx`) na mesma pasta onde está o script.
-- Certifique-se de que os nomes dos arquivos correspondem aos nomes esperados pelo script.
+- Certifique-se de que os nomes dos arquivos correspondem exatamente aos nomes `Planilha_Base` e `Termo_Bolsa` que são esperados pelo script .
 
 ### 4. Executar o Script
 
@@ -35,4 +35,13 @@ Antes de começar, certifique-se de que você tem os seguintes itens instalados:
 Para facilitar o uso, disponibilizamos uma versão executável do projeto. Siga os passos abaixo:
 
 1. Procure pela pasta que contém os arquivos `create_pdf.exe`, `Planilha_Base.xlsx`, `Termo_Bolsa.docx`.
-2. Execute o arquivo `create_pdf.exe`
+2. Faça alterações na planilha e no template conforme sua demanda.
+3. Execute o arquivo `create_pdf.exe`
+
+## 🤝 Contato
+
+Se você tiver dúvidas ou precisar de ajuda, entre em contato:
+
+pedro.santos@irede.org.br
+
+Teams: Pedro Julius
